@@ -1,13 +1,15 @@
 #include<stdio.h>
+//
  int main(){
-     int a,l,b;
-    printf("enter two numbers");
-    scanf("%d %d",&l, &b);
-    a=l*b;
-    printf("area of rectoangle = %d",a);
+     
+   char name[20]="sarthak jindal";
+   printf("my name is %s\n",name);
+   
+   name[5]='i';
+   printf("my name is %s\n",name);
     return(0); 
  }
-
+//
 
 
 
