@@ -1,21 +1,12 @@
 #include<stdio.h>
-//
+#include "headerfile.c"
+
  int main(){
-     
-   char name[20]="sarthak jindal";
-   printf("my name is %s\n",name);
-   
-   name[5]='i';
-   printf("my name is %s\n",name);
-
-   char food[] ="tomato";
-   printf("the best food is %s\n",food);
-
-   strcpy(food,"mulli");
-   printf("the best food is %s\n",food);
+     char AGE, MYNAME;
+     AGE= 20;
+       
+     int girlsAGE = (AGE / 2 + 7);
+     printf("%s can date girls %d or older", girlsAGE);
+ 
     return(0); 
  }
-//
-
-
-
