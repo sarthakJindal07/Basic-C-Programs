@@ -1,17 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    char firstname[20];
-        int age;
+    int a = 78;
+    int b = 89;
+    printf("%d\n",a-b);
 
-    printf("what is my name?\n ");
-    scanf("%s", firstname);
-
-    printf("what is my age?\n ");
-    scanf("%d", age);
-
-    printf("%s is %d years old\n");
-
+    float c= 45.67;
+    float d = 789.456;
+    printf("%f\n", c+d);
     return(0);
 
 }
