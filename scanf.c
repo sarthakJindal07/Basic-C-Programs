@@ -1,13 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int a = 78;
-    int b = 89;
-    printf("%d\n",a-b);
+   int a = 8+79*9;
+   printf("%d\n",a);
 
-    float c= 45.67;
-    float d = 789.456;
-    printf("%f\n", c+d);
+   int b = (8+79)*9;
+   printf("%d\n",b);
     return(0);
 
 }
