@@ -1,11 +1,14 @@
 #include<stdio.h>
 int main()
 {
-   int a = 8+79*9;
-   printf("%d\n",a);
+  float percentage1, percentage2, percentage3, average;
+  percentage1 = 78.8;
+  percentage2 = 88.9;
+  percentage3 = 54.783;
 
-   int b = (8+79)*9;
-   printf("%d\n",b);
+  average = (percentage1 + percentage2 + percentage3) / 3;
+
+  printf("the average precentage of students is %f",average);
     return(0);
 
 }
