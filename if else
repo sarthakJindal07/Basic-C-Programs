@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int age;
+    char gender;
+    printf("what is your age?\n");
+    scanf(" %d",&age);
+    
+    printf("what is your gender?(m/f)\n");
+    scanf(" %c",&gender);
+    
+    if(age >= 18){
+        printf("you can access your account");
+        }
+
+    if(age < 18){
+        printf("you may not allowed to access your account");
+    }
+     if(gender == 'm'){
+            printf(" dude");
+        }
+
+        if(gender == 'f'){
+            printf(" lady");
+        }
+}
