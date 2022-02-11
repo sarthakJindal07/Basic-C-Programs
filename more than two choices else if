@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    float grade1;
+    float grade2;
+    float grade3;
+    printf("enter your 3 grades\n");
+    scanf("%f",&grade1);
+    scanf("%f",&grade2);
+    scanf("%f",&grade3);
+    float avg = (grade1 + grade2 + grade3)/3;
+    printf("average: %.5f\n",avg);
+    
+    if(avg >= 90){
+        printf("grade : A");
+    }else if(avg >= 80){
+        printf("grade : B");
+    }else if(avg >= 70){
+        printf("grade : C");
+        }else{
+            printf("you are duffer");
+        }
+}
