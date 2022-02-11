@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int hoursstudied =40;
+    int kidsbeatenup = 0;
+    
+    if( (hoursstudied >=16)&& (kidsbeatenup==0)){
+        printf("bright student");
+    }
+    if((hoursstudied <=10)&& (kidsbeatenup==0)){
+        printf("gnda bacha");
+    }
+}
