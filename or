@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{ 
+    char anwser;
+printf("do u like it? (y/n) \n" );
+scanf("%c",&anwser);
+if((anwser == 'y')|| (anwser == 'n')){
+    printf("good job,you did it well");
+}else{
+    printf("kam kharab krdiya");
+}
+return 0;
+}
