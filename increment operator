@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{ int a = 5, b= 10, answer=0;
+answer = ++a*b;
+printf("answer:%d\n", answer);
+
+ a = 5, b= 10, answer=0;
+answer = a++*b;
+printf("answer:%d\n", answer);
+
+}
