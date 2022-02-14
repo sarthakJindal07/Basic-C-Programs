@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{ int friends = 1;
+printf("i have %d friends%s",friends ,(friends!=1) ? "s" : "" );
+
+}
