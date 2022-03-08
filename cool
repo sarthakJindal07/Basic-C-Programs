@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+int tuna='5';
+
+if( isalpha(tuna) ){
+    printf("%c is a letter",tuna);
+}else{
+    if( isdigit(tuna) ){
+        printf("%c is a number",tuna);
+    }
+}
+    return 0;
+}
