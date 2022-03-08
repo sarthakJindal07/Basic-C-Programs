@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+int tuna='r';
+
+if( isalpha(tuna) ){
+    if( isupper(tuna)){
+        printf(" %c is a upper case letter",tuna);
+    }else{
+        printf(" %c is a lower case letter",tuna);
+    }
+}else{
+    if( isdigit(tuna) ){
+        printf("%c is a number",tuna);
+    }
+}
+    return 0;
+}
