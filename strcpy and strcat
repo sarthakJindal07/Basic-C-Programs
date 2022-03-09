@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char hm[100]="sarthak";
+    
+    strcat(hm, " is");
+    strcat(hm, " able to do anything.");
+    printf("%s\n",hm);
+    
+    strcpy(hm, "sarthak is simply cool");
+    printf("%s\n",hm);
+    return 0;
+}
