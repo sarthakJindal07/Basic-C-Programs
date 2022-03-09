@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    char catsname[40];
+    char catsfood[45];
+    char sentence[1000]="";
+    
+    puts("kya nam hai? ");
+    gets(catsname);
+    puts("kya khati hai? ");
+    gets(catsfood);
+    strcat(sentence, catsname);
+    strcat(sentence,"pasand hai");
+    strcat(sentence, catsfood);
+    puts(sentence);
+    return 0;
+}
