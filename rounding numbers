@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    float ter = 23.4567;
+    float ter2 = 34.87654;
+    
+    printf("ter is %.2f\n", floor (ter) );
+    printf("ter is %.2f\n", floor (ter2) );
+    
+    printf("ter is %.2f\n", ceil (ter) );
+    printf("ter is %.2f\n", ceil (ter2) );
+    return 0;
+}
