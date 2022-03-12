@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+    int player[5]= {34,56,78,89,77};
+    int goals[5]= {67,77,88,99,55};
+    int gamesplayed[5]= {30,30,40,30,30};
+    float ppg[5];
+    float bestppg = 0.0;
+    int bestplayer;
+    
+    for(i=0; i<5; i++){
+        ppg[i]= (float)goals[i] / (float)gamesplayed[i] ;
+        printf("%d \t %d \t %d \t %.2f \n",player[i], goals[i], gamesplayed[i], ppg[i]);
+        if(ppg[i] > bestppg){
+            bestppg = ppg[i];
+            bestplayer = player[i];
+            
+        }
+    }
+    printf("\nthe best is %d \n", bestplayer);
+    return 0;
+}
