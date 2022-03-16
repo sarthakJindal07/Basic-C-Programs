@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+   int i;
+   int meatballs[5] = {5,67,89,65,79};
+   printf("element \t address \t value\n");
+   for(i=0; i<5; i++){
+       printf("meatballs[%d] \t %p \t %d\n", &meatballs[i], meatballs[i]);
+       
+   }
+   printf("\nmeatballs \t\t %p \n", meatballs);
+   
+   printf("\n*meatballs \t\t %d\n", *meatballs);
+   printf("\n*(meatballs+2) \t\t %d\n", *(meatballs+2));
+    return 0;
+}
